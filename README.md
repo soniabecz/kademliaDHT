@@ -1,20 +1,20 @@
 # KademliaDHT 
 
-## 📌 Overview
+## Overview
 
 This project implements a decentralized, peer-to-peer communication protocol based on the **Kademlia Distributed Hash Table (DHT)**. It enables efficient and fault-tolerant message routing in dynamic and unreliable network environments, using a point-to-point communication system and helper node mechanism.
 
 The implementation is built using **Java** within the **Babel framework**.
 
-## ✨ Features
+## Features
 
-- ✅ **Kademlia DHT Protocol** for efficient peer discovery and routing
-- 🔁 **Proximity-aware Routing** using XOR-based distance metric
-- 📡 **Point-to-Point Messaging** with support for dynamic IPs and port changes
-- 🧭 **Helper Nodes** to buffer messages for offline nodes
-- 🧪 **Interactive & Batch Modes** for debugging and testing at scale
+- **Kademlia DHT Protocol** for efficient peer discovery and routing
+- **Proximity-aware Routing** using XOR-based distance metric
+- **Point-to-Point Messaging** with support for dynamic IPs and port changes
+- **Helper Nodes** to buffer messages for offline nodes
+- **Interactive & Batch Modes** for debugging and testing at scale
 
-## 🏗️ Architecture
+## Architecture
 
 ### 1. Kademlia DHT
 - Nodes are arranged using a binary tree and routed based on XOR distance.
@@ -31,7 +31,7 @@ The implementation is built using **Java** within the **Babel framework**.
 - **Batch mode** for scalability tests
 - Logs performance metrics like message delivery rates and latency
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -53,7 +53,7 @@ mvn clean install
 2. Launch a node using one of the main classes
 3. Optionally, run in batch mode for simulations
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 .
@@ -66,11 +66,11 @@ mvn clean install
 └── pom.xml
 ```
 
-## 🧪 Experimental Evaluation
+## Experimental Evaluation
 
 The evaluation framework is in place, but empirical tests on performance metrics such as **latency**, **message reliability**, and **scalability** were not completed. Future work will focus on benchmarking these aspects.
 
-## ✅ Future Improvements
+## Future Improvements
 
 - Full experimental evaluation
 - Integrate adaptive routing
